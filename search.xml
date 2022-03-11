@@ -4,11 +4,40 @@
   
     
     <entry>
-      <title>first</title>
+      <title>hexo+matery博客搭建记录</title>
+      <link href="/2022/03/11/hexo-matery-bo-ke-da-jian-ji-lu/"/>
+      <url>/2022/03/11/hexo-matery-bo-ke-da-jian-ji-lu/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>写下这篇博客的时候，我的hexo博客已经算是初步搭建完成。搭建hexo博客不是什么难事，主要是在配置matery主题的时候遇到了许多的坑，此篇记录一下我是怎么从零到搭建完成以及一些遇到的<strong>坑</strong>怎么解决。</p><blockquote><p>本文参考<a href="https://fenghen0918.github.io/2020/06/18/hexo/hexo-github-da-jian-matery-bo-ke-er-zhu-ti-pei-zhi-pian/#toc-heading-7">特仑苏</a>，感谢他的博客帮助我对<code>matery</code>这个主题进行的个性化。</p></blockquote><h1 id="搭建过程"><a href="#搭建过程" class="headerlink" title="搭建过程"></a>搭建过程</h1><h2 id="总体概览"><a href="#总体概览" class="headerlink" title="总体概览"></a>总体概览</h2><h3 id="功能增加"><a href="#功能增加" class="headerlink" title="功能增加"></a>功能增加</h3><ul><li>增加标签、分类、归档、关于我、留言板、友链、404、小爱好（二级导航）页面</li><li>增加爱好中游戏、音乐、绘画等页面</li><li>增加emoji表情支持</li><li>代码高亮</li><li>搜索</li><li>文章字数统计</li><li>添加Valine评论</li></ul><h3 id="主题个性化"><a href="#主题个性化" class="headerlink" title="主题个性化"></a>主题个性化</h3><ul><li>主题背景颜色</li><li>修改banner图和文章特色图</li><li>修改导航栏颜色</li><li>添加动态科技线条</li><li>页面获取标题</li></ul><h3 id="博客优化"><a href="#博客优化" class="headerlink" title="博客优化"></a>博客优化</h3><p>还未更新</p><h2 id="环境搭建"><a href="#环境搭建" class="headerlink" title="环境搭建"></a>环境搭建</h2><h2 id="增加功能"><a href="#增加功能" class="headerlink" title="增加功能"></a>增加功能</h2><h2 id="主题个性化-1"><a href="#主题个性化-1" class="headerlink" title="主题个性化"></a>主题个性化</h2><h2 id="博客优化-1"><a href="#博客优化-1" class="headerlink" title="博客优化"></a>博客优化</h2><h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> blog更新记录 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> blog </tag>
+            
+            <tag> hexo </tag>
+            
+            <tag> matery </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>测试</title>
       <link href="/2022/03/07/first/"/>
       <url>/2022/03/07/first/</url>
       
-        <content type="html"><![CDATA[<h2 id="hello"><a href="#hello" class="headerlink" title="hello"></a>hello</h2><h3 id="nihao"><a href="#nihao" class="headerlink" title="nihao"></a>nihao</h3><p>hello!hello!</p><pre class=" language-bash"><code class="language-bash">$ hexo s</code></pre>]]></content>
+        <content type="html"><![CDATA[<p>Test</p>]]></content>
       
       
       <categories>
@@ -33,7 +62,7 @@
       <link href="/2022/03/07/hello-world/"/>
       <url>/2022/03/07/hello-world/</url>
       
-        <content type="html"><![CDATA[<pre class=" language-java"><code class="language-java"><span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">int</span><span class="token punctuation">;</span></code></pre>]]></content>
+        <content type="html"><![CDATA[<p>hello world!</p>]]></content>
       
       
       <categories>

@@ -4,8 +4,10 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello World, HTML,CSS,Vue.js,Java,Python">
-    <meta name="description" content="从零开始">
+    <meta name="keywords" content="hexo+matery博客搭建记录, HTML,CSS,Vue.js,Java,Python">
+    <meta name="description" content="前言写下这篇博客的时候，我的hexo博客已经算是初步搭建完成。搭建hexo博客不是什么难事，主要是在配置matery主题的时候遇到了许多的坑，此篇记录一下我是怎么从零到搭建完成以及一些遇到的坑怎么解决。
+
+本文参考特仑苏，感谢他的博客帮助我">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +19,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hello World | Cinlends&#39;s blog</title>
+    <title>hexo+matery博客搭建记录 | Cinlends&#39;s blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -336,12 +338,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/Cinlends/cinlends-imgs/bg-img/b7.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/Cinlends/cinlends-imgs/bg-img/b12.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hello World</h1>
+                    <h1 class="description center-align post-title">hexo+matery博客搭建记录</h1>
                 </div>
             </div>
         </div>
@@ -457,12 +459,16 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/html/">
-                                <span class="chip bg-color">html</span>
+                            <a href="/tags/blog/">
+                                <span class="chip bg-color">blog</span>
                             </a>
                         
-                            <a href="/tags/css/">
-                                <span class="chip bg-color">css</span>
+                            <a href="/tags/hexo/">
+                                <span class="chip bg-color">hexo</span>
+                            </a>
+                        
+                            <a href="/tags/matery/">
+                                <span class="chip bg-color">matery</span>
                             </a>
                         
                     </div>
@@ -473,8 +479,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E6%8A%80%E6%9C%AF/" class="post-category">
-                                技术
+                            <a href="/categories/blog%E6%9B%B4%E6%96%B0%E8%AE%B0%E5%BD%95/" class="post-category">
+                                blog更新记录
                             </a>
                         
                     </div>
@@ -486,7 +492,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-03-07
+                    2022-03-11
                 </div>
                 
 
@@ -500,7 +506,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    2
+                    258
                 </div>
                 
 
@@ -527,8 +533,28 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>hello world!</p>
-
+                <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>写下这篇博客的时候，我的hexo博客已经算是初步搭建完成。搭建hexo博客不是什么难事，主要是在配置matery主题的时候遇到了许多的坑，此篇记录一下我是怎么从零到搭建完成以及一些遇到的<strong>坑</strong>怎么解决。</p>
+<blockquote>
+<p>本文参考<a target="_blank" rel="noopener" href="https://fenghen0918.github.io/2020/06/18/hexo/hexo-github-da-jian-matery-bo-ke-er-zhu-ti-pei-zhi-pian/#toc-heading-7">特仑苏</a>，感谢他的博客帮助我对<code>matery</code>这个主题进行的个性化。</p>
+</blockquote>
+<h1 id="搭建过程"><a href="#搭建过程" class="headerlink" title="搭建过程"></a>搭建过程</h1><h2 id="总体概览"><a href="#总体概览" class="headerlink" title="总体概览"></a>总体概览</h2><h3 id="功能增加"><a href="#功能增加" class="headerlink" title="功能增加"></a>功能增加</h3><ul>
+<li>增加标签、分类、归档、关于我、留言板、友链、404、小爱好（二级导航）页面</li>
+<li>增加爱好中游戏、音乐、绘画等页面</li>
+<li>增加emoji表情支持</li>
+<li>代码高亮</li>
+<li>搜索</li>
+<li>文章字数统计</li>
+<li>添加Valine评论</li>
+</ul>
+<h3 id="主题个性化"><a href="#主题个性化" class="headerlink" title="主题个性化"></a>主题个性化</h3><ul>
+<li>主题背景颜色</li>
+<li>修改banner图和文章特色图</li>
+<li>修改导航栏颜色</li>
+<li>添加动态科技线条</li>
+<li>页面获取标题</li>
+</ul>
+<h3 id="博客优化"><a href="#博客优化" class="headerlink" title="博客优化"></a>博客优化</h3><p>还未更新</p>
+<h2 id="环境搭建"><a href="#环境搭建" class="headerlink" title="环境搭建"></a>环境搭建</h2><h2 id="增加功能"><a href="#增加功能" class="headerlink" title="增加功能"></a>增加功能</h2><h2 id="主题个性化-1"><a href="#主题个性化-1" class="headerlink" title="主题个性化"></a>主题个性化</h2><h2 id="博客优化-1"><a href="#博客优化-1" class="headerlink" title="博客优化"></a>博客优化</h2><h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2>
                 
             </div>
             <hr/>
@@ -554,7 +580,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://cinlendsblog.com/2022/03/07/hello-world/">http://cinlendsblog.com/2022/03/07/hello-world/</a>
+                    <a href="http://cinlendsblog.com/2022/03/11/hexo-matery-bo-ke-da-jian-ji-lu/">http://cinlendsblog.com/2022/03/11/hexo-matery-bo-ke-da-jian-ji-lu/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -592,12 +618,16 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/html/">
-                                    <span class="chip bg-color">html</span>
+                                <a href="/tags/blog/">
+                                    <span class="chip bg-color">blog</span>
                                 </a>
                             
-                                <a href="/tags/css/">
-                                    <span class="chip bg-color">css</span>
+                                <a href="/tags/hexo/">
+                                    <span class="chip bg-color">hexo</span>
+                                </a>
+                            
+                                <a href="/tags/matery/">
+                                    <span class="chip bg-color">matery</span>
                                 </a>
                             
                         </div>
@@ -1037,9 +1067,67 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/2022/03/11/hexo-matery-bo-ke-da-jian-ji-lu/">
+                    <div class="card-image">
+                        
+                        <img src="/images/g0.gif" data-original="https://cdn.jsdelivr.net/gh/Cinlends/cinlends-imgs/bg-img/b12.jpg" class="responsive-img" alt="hexo+matery博客搭建记录">
+                        
+                        <span class="card-title">hexo+matery博客搭建记录</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-03-11
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/blog%E6%9B%B4%E6%96%B0%E8%AE%B0%E5%BD%95/" class="post-category">
+                                    blog更新记录
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/blog/">
+                        <span class="chip bg-color">blog</span>
+                    </a>
+                    
+                    <a href="/tags/hexo/">
+                        <span class="chip bg-color">hexo</span>
+                    </a>
+                    
+                    <a href="/tags/matery/">
+                        <span class="chip bg-color">matery</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/2022/03/07/first/">
                     <div class="card-image">
@@ -1053,54 +1141,6 @@
                     <div class="summary block-with-text">
                         
                             
-                        
-                    </div>
-                    <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-03-07
-                        </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E6%8A%80%E6%9C%AF/" class="post-category">
-                                    技术
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/Vue/">
-                        <span class="chip bg-color">Vue</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
-            </div>
-            <div class="card">
-                <a href="/2022/03/07/hello-world/">
-                    <div class="card-image">
-                        
-                        <img src="/images/g0.gif" data-original="https://cdn.jsdelivr.net/gh/Cinlends/cinlends-imgs/bg-img/b7.jpg" class="responsive-img" alt="Hello World">
-                        
-                        <span class="card-title">Hello World</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            从零开始
                         
                     </div>
                     <div class="publish-info">
@@ -1119,16 +1159,11 @@
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/html/">
-                        <span class="chip bg-color">html</span>
-                    </a>
-                    
-                    <a href="/tags/css/">
-                        <span class="chip bg-color">css</span>
+                    <a href="/tags/Vue/">
+                        <span class="chip bg-color">Vue</span>
                     </a>
                     
                 </div>
